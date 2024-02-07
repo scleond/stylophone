@@ -2401,7 +2401,7 @@
     (property "Datasheet" "" (at 344.17 205.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f07e661b-8529-493e-8814-afa3e54ae3c6))
+    (pin "1" (uuid 8c9b671f-7808-4fd9-b88b-d3fda02a365e))
     (instances
       (project "stylophone"
         (path "/af730536-f480-4276-b0c9-05391d212333"
@@ -2591,6 +2591,32 @@
     )
   )
 
+  (symbol (lib_id "Device:C_Small") (at 227.33 219.71 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 3c3401d7-a730-4047-8748-c71e3297e9a8)
+    (property "Reference" "C1" (at 229.87 218.44 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" ".033u" (at 229.87 220.98 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 227.33 219.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 227.33 219.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 363bf78b-ce3e-4803-9a02-857ce3a916f0))
+    (pin "2" (uuid b04c0bf6-5dc4-40f6-a9d0-4a584798a808))
+    (instances
+      (project "stylophone"
+        (path "/af730536-f480-4276-b0c9-05391d212333"
+          (reference "C1") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R_Small_US") (at 292.1 148.59 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3ff92932-d3b3-4922-a588-4be6d356a1a2)
@@ -2612,32 +2638,6 @@
       (project "stylophone"
         (path "/af730536-f480-4276-b0c9-05391d212333"
           (reference "R39") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 227.33 219.71 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 400b575b-c80e-45e6-846c-44c9578ff067)
-    (property "Reference" "C1" (at 229.87 219.0813 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" ".033uF" (at 229.87 221.6213 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 227.33 219.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 227.33 219.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 4fbae771-80ed-46c2-86b7-a81b6f00c03d))
-    (pin "2" (uuid 0e6d1081-ed09-4591-b7e7-ce33aa0e43f3))
-    (instances
-      (project "stylophone"
-        (path "/af730536-f480-4276-b0c9-05391d212333"
-          (reference "C1") (unit 1)
         )
       )
     )
@@ -3433,8 +3433,8 @@
     (property "Datasheet" "~" (at 350.52 201.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 79882e06-fae8-4b57-820b-c24d51a149a6))
-    (pin "2" (uuid 167bba58-e3b6-437f-93cc-e3fdfd23731f))
+    (pin "1" (uuid 66e5d389-e925-4f87-8c93-8f48ec50feb1))
+    (pin "2" (uuid 7f17d5c3-6a6e-49c6-9f82-ac5d4f0c98c3))
     (instances
       (project "stylophone"
         (path "/af730536-f480-4276-b0c9-05391d212333"
@@ -4149,8 +4149,8 @@
     (property "Datasheet" "~" (at 339.09 201.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f11406e5-4f98-4213-bfcc-88a7e0bff15c))
-    (pin "2" (uuid 27ea98bc-97bb-42f2-912b-fd1118953268))
+    (pin "1" (uuid 9935088f-b2b4-418b-a5bb-8ad6b12c2179))
+    (pin "2" (uuid e519d003-a1bf-4b00-a324-158b710fd5f9))
     (instances
       (project "stylophone"
         (path "/af730536-f480-4276-b0c9-05391d212333"
